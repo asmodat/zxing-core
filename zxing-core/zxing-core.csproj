@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZXing</RootNamespace>
+    <AssemblyName>zxing-core</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Asmodat-ZXing</PackageId>
+    <Authors>Asmodat-ZXing</Authors>
+    <Company>Asmodat-ZXing</Company>
+    <Product>Asmodat-ZXing</Product>
+    <PackageProjectUrl>https://github.com/asmodat/zxing-core</PackageProjectUrl>
+    <PackageTags>Asmodat ZXing Standard</PackageTags>
+    <PackageReleaseNotes>2020-03-06</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+ 
+</Project>
